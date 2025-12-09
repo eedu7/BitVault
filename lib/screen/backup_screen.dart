@@ -14,7 +14,7 @@ class _BackupScreenState extends State<BackupScreen> {
       appBar: AppBar(
         leading: IconButton(
           onPressed: () {
-            Navigator.pushReplacementNamed(context, '/');
+            Navigator.pop(context);
           },
           icon: Icon(Icons.arrow_back),
         ),

@@ -14,7 +14,7 @@ class _ExportScreenState extends State<ExportScreen> {
       appBar: AppBar(
         leading: IconButton(
           onPressed: () {
-            Navigator.pushReplacementNamed(context, '/');
+            Navigator.pop(context);
           },
           icon: Icon(Icons.arrow_back),
         ),
