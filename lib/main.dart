@@ -1,6 +1,6 @@
 import 'package:bitvault/screen/backup_screen.dart';
 import 'package:bitvault/screen/export_screen.dart';
-import 'package:bitvault/screen/main_screen.dart';
+import 'package:bitvault/screen/main/main_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Flutter Demo',
-      theme: ThemeData(colorScheme: .fromSeed(seedColor: Colors.deepPurple)),
+      theme: ThemeData(colorScheme: .fromSeed(seedColor: Colors.deepOrange)),
       debugShowCheckedModeBanner: false,
       initialRoute: '/',
       routes: {
